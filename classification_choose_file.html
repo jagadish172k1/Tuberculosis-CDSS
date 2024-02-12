@@ -54,7 +54,7 @@
 						<form method="post" action="#">
 							<div class="fields">
 								<div class="field">
-									<label for="name" style="font-size: 16px;">Choose file for Recommended</label>
+									<label for="name" style="font-size: 16px;">Choose appropriate file</label>
 									<input type="file" onchange="showFiles(event)" accept=".png, .jpg, .jpeg">
 								</div>
 						</form>
@@ -174,8 +174,8 @@
 							// https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 			
 							// the link to your model provided by Teachable Machine export panel
-							const URL = "https://teachablemachine.withgoogle.com/models/4xr4Chrfn/";
-							//const URL = "./my_model/";
+							// const URL = "https://teachablemachine.withgoogle.com/models/4xr4Chrfn/";
+							const URL = "./my_model/";
 							let model, webcam, labelContainer, maxPredictions;
 			
 			
